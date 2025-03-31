@@ -228,11 +228,26 @@
   .relative {
     position: relative;
   }
+  .top-5 {
+    top: calc(var(--spacing) * 5);
+  }
+  .top-15 {
+    top: calc(var(--spacing) * 15);
+  }
+  .top-25 {
+    top: calc(var(--spacing) * 25);
+  }
   .right-4 {
     right: calc(var(--spacing) * 4);
   }
+  .right-50 {
+    right: calc(var(--spacing) * 50);
+  }
   .bottom-4 {
     bottom: calc(var(--spacing) * 4);
+  }
+  .left-50 {
+    left: calc(var(--spacing) * 50);
   }
   .col-span-2 {
     grid-column: span 2 / span 2;
@@ -280,6 +295,9 @@
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
+  .h-40 {
+    height: calc(var(--spacing) * 40);
+  }
   .min-h-screen {
     min-height: 100vh;
   }
@@ -320,6 +338,9 @@
   }
   .animate-bounce {
     animation: var(--animate-bounce);
+  }
+  .grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
   .grid-cols-\[1fr_100px\] {
     grid-template-columns: 1fr 100px;
@@ -433,6 +454,15 @@
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
+  }
+  .px-30 {
+    padding-inline: calc(var(--spacing) * 30);
+  }
+  .px-40 {
+    padding-inline: calc(var(--spacing) * 40);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
   }
   .text-center {
     text-align: center;
